@@ -8,10 +8,7 @@
     --sercolor:#F4F4FD;
     --serrcolor:#E7E9FC;
 }
-::selection p h1 h2 h3 {
-margin: 0;
-padding: 0;
-}
+ 
 /* body */
 
 .boddy{
@@ -19,6 +16,24 @@ padding: 0;
         background-color: #FFFFFF;
     color: var(--contactcolor);
     
+    }
+    p,
+    h1,
+    h2, 
+    h3,
+    h4,
+    h5,
+    h6{
+        margin: 0;
+    }
+    button{
+        cursor: pointer;
+    }
+    ul,
+    ol{
+        list-style: none;
+        margin:0;
+        padding:0;
     }
 
 
