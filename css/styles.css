@@ -475,13 +475,15 @@ color: var(--serrcolor);
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.5;
-    margin-left: 24px;
+    margin-left: px;
     background:  var(--sercolor);
     color: var(--butcolor);
     border: 1px solid var(--serrcolor);
     border-radius: 4px;
+    padding: 12px 24px;
     cursor: pointer;
     display: inline-block;
+    
 }
 .all:hover{
     background:  var(--butcolor);
@@ -498,32 +500,7 @@ color: var(--serrcolor);
     color:  var(--whitecolor);
     
 }
-.buttrons{
-    list-style-type: none;
-    display: flex;
-   flex-wrap: wrap;
-}
-.buttrons ul{
-    padding: 0;
-    margin: 0;
-}
 
-.buttrons li {
-    display: block;
-   -top: 24px;
-    padding-bottom: 24px;
-}
-.buttrons li + li {
-    margin-left: 40px;
-}
-
-.buttrons a {
-    color: var(--navcolor);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
 
 
 
@@ -533,7 +510,7 @@ color: var(--serrcolor);
     text-decoration: none
 }
 .flowerone{
-    width: 360px;
+    
 }
 .flowertwo{
     font-style: normal;
@@ -548,37 +525,39 @@ color: var(--serrcolor);
     color: var(--contactcolor);
     
 }
-.port {
+.buttrons{
+    margin-top: 72px;
     display: flex;
     flex-wrap: wrap;
+    list-style-type: none;
 }
 
-.port li {
+.buttrons li {
     width: calc((100% - 48px) / 3);
     margin-right: 24px;
     margin-bottom: 48px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.port img {
+.buttrons img {
     display: block;
 }
 
-.port-card {
-    border: 0.5px solid #F4F4FD;
-    border-top: 0;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
-}
 
-.port li:nth-child(3n) {
+
+.buttrons li:nth-child(3n) {
     margin-right: 0;
 }
 
-.port li:nth-last-child(-n+3) {
+.buttrons li:nth-last-child(-n+3) {
     margin-bottom: 0;
 }
 
 
-.CLA
+.port-card {
+    border: 0.5px solid var(--sercolor);
+    border: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
